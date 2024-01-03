@@ -1,14 +1,27 @@
 footer {
-  padding: 2rem;
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-s);
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
 }
 
-footer .footer {
-  max-width: 1200px;
-  margin: auto;
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-footer .footer p {
-  margin: 0;
+.footer-section h1,
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #fff;
 }
