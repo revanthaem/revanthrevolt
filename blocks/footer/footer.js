@@ -48,6 +48,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     </footer>
     `;
 
-    // Replace the placeholder text with the actual footer HTML
+    alert(1);// Replace the placeholder text with the actual footer HTML
     document.body.innerHTML = bodyHTML.replace('Footer Revolt', footerHTML);
 });
