@@ -47,6 +47,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         <div>&copy; 2024 REVOLT TV RIGHTS RESERVED.</div>
     </footer>
     `;
- document.body.innerHTML = bodyHTML.replace('Footer Revolt', footerHTML);
+ document.body.innerHTML = bodyHTML.replace('Footer-Revolt', footerHTML);
     alert(1);// Replace the placeholder text with the actual footer HTML
 });
